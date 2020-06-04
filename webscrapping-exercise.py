@@ -1,4 +1,8 @@
 from scrapy import Selector
+import request
+
+url = "https://github.com/hatmahat"
+html2 = request.get(url).content
 
 html = '''
 <html>
