@@ -13,17 +13,3 @@ wisesa = [
 
 for i in wisesa:
     print(i)
-
-def password(pass_int):
-    pass_input = int(input("Enter pass: ").strip())
-    tries = 0
-    while pass_input != pass_int:
-        print("Password incorrect, try again!")
-        pass_input = int(input("Enter pass: ").strip())
-        tries += 1
-        if tries == 3:
-            break
-    #print("access granted!")
-    print("too many tries!, system out..")
-
-password(1234)
